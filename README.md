@@ -8,14 +8,14 @@ This SDK repository contains the following items:
 * API Reference Documentation. A hosted version of this can be found [here](https://developers.arcgis.com/python/api-reference/).
 * Samples as Jupyter Notebooks.
 * Guides chapters as Jupyter Notebooks.
+* API Reference Documentation can be found [here](https://developers.arcgis.com/python/api-reference/).  Downloads are available for current and previous versions [here](https://developers.arcgis.com/downloads/#python).
 
 You have multiple ways of executing these notebooks as listed below:
 
- - Execute locally on your computer by installing anaconda and the API. See help [here](https://developers.arcgis.com/python/guide/install-and-set-up/#Get-Conda-with-Anaconda-for-Python-Distribution)
- - Execute with ArcGIS Pro. See help [here](https://developers.arcgis.com/python/guide/install-and-set-up/#Get-Conda-with-ArcGIS-Pro)
- - Execute with ArcGIS Hosted Notebooks. See [here](https://www.esri.com/en-us/arcgis/products/arcgis-notebook-server)
- - Execute on a hosted sandbox environment. Go to [notebooks.esri.com](http://notebooks.esri.com/)
- - Execute in a Dockerised environment. See help [here](https://developers.arcgis.com/python/guide/install-and-set-up/#Install-as-a-Docker-image)
+ - Execute locally on your computer by installing anaconda and the API. See _Install and set up_ help [Package managers](https://developers.arcgis.com/python/guide/anaconda/)
+ - Execute with ArcGIS Pro. See the _Install and set up_ [ArcGIS Pro](https://developers.arcgis.com/python/guide/arcgis-pro/) topic. For additional details, see [Notebooks in ArcGIS Pro](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/pro-notebooks.htm).
+ - Execute with ArcGIS Notebooks, hosted on ArcGIS Online. Checkout [this group](https://www.arcgis.com/home/group.html?id=2464da88f55e45d89aedcae843167f51#overview) with sample notebooks.
+ - Execute in a Dockerised environment. See _Install and set up_ help [Installation as Docker image](https://developers.arcgis.com/python/guide/install-and-set-up/#installation-as-a-docker-image)
  - Execute with Binder. See help [here](https://mybinder.org/)
 
 ## Issues
@@ -27,7 +27,7 @@ Find a bug or want to request a new feature?  Please let us know by submitting a
 Anyone and everyone is welcome to contribute. Please see our contribution guideline [here](https://github.com/Esri/arcgis-python-api/wiki/How-to-contribute-samples-and-guide-chapters).
 
 ## Licensing
-Copyright 2018-2019 Esri
+Copyright 2018-2022 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
