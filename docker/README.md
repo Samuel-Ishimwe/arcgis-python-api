@@ -8,7 +8,7 @@ Some useful docker images for utilizing the ArcGIS API for Python in your workfl
 
 To use this image, setup your dockerfile like:
 ```
-FROM ghcr.io/esri/arcgis-python-api-lambda
+FROM ghcr.io/esri/arcgis-python-api-lambda:latest
 COPY app.py ${LAMBDA_TASK_ROOT}
 ```
 
@@ -24,3 +24,9 @@ def handler(event, context):
 ```
 
 Push to your _private_ AWS ECR instance, and configure lambda to run from this container image.  As of this writing, public AWS ECR instances are not supported for lambda.
+
+## AzureFunctionsBaseImage
+
+The AzureFunctionsBase image has been deprecated in favor of using the standard runtime for Azure Functions development.
+
+See `samples/devops_azure_functions` for a sample using the standard runtime deployment.

@@ -3,7 +3,7 @@ samples:
   url: https://www.arcgis.com/home/item.html?id=27017ef3b3864e74ae1b7587719a3391
   path: ./samples/04_gis_analysts_data_scientists/analyze_new_york_city_taxi_data.ipynb
   thumbnail: ./static/thumbnails/analyze_new_york_city_taxi_data.png
-  snippet: Use big data tools to analye NYC taxi data
+  snippet: Use big data tools to analyze NYC taxi data
   description: This sample demonstrates the steps involved in performing an aggregation analysis on New York city taxi point data using ArcGIS API for Python.
   licenseInfo: ""
   tags: ["Data Science", "GIS", "Taxi"]
@@ -35,7 +35,7 @@ samples:
   url: https://www.arcgis.com/home/item.html?id=acc8b4e5e0d5422d8af19166c1fc21d5
   path: ./samples/04_gis_analysts_data_scientists/analyzing_growth_factors_of_airbnb_properties_in_new_york_city.ipynb
   thumbnail: ./static/thumbnails/analyzing_growth_factors_of_airbnb_properties_in_new_york_city.png
-  snippet: Analyze growth factors of Arbnb properties in New York
+  snippet: Analyze growth factors of Airbnb properties in New York
   description: A study is carried out in this sample notebook to understand the factors that are fuelling widespread growth in the number of Airbnb listings
   licenseInfo: ""
   tags: ["Data Science", "GIS", "airbnb"]
@@ -116,7 +116,7 @@ samples:
 #   tags: ["Data Science", "GIS", "Thomas Fire", "California"]
 - title: Chennai Floods 2015 - A Geographic Analysis
   url: https://www.arcgis.com/home/item.html?id=44c4fc1e56654768840a03971feb1e77
-  path: ./samples/04_gis_analysts_data_scientists/chennai_floods_analysis.ipynb
+  path: ./samples/04_gis_analysts_data_scientists/chennai_floods_analysis_rn.ipynb
   thumbnail: ./static/thumbnails/chennai_floods_analysis.jpg
   snippet: Analyze the rainfall in Chennai, India
   description: This sample showcases not just the analysis and visualization capabilities of your GIS, but also the ability to store illustrative text, graphics and live code in a Jupyter notebook.
@@ -225,7 +225,7 @@ samples:
 #   url: https://www.arcgis.com/home/item.html?id=50d6c2001e864d44ab5278e7b439bf41
 #   path: ./samples/04_gis_analysts_data_scientists/detect_super_blooms_using_satellite_image_classification.ipynb
 #   thumbnail: ./static/thumbnails/detect_super_blooms_using_satellite_image_classification.jpg
-#   snippet: Determine the occurance of super blooms in the study area for a given year
+#   snippet: Determine the occurrence of super blooms in the study area for a given year
 #   description: This sample is to study three poppy fields where people often go for watching super blooms, compare the sites with historic scenes, capture the differences in vegetation conditions, and calculate the vegetation density of blooms.
 #   licenseInfo: ""
 #   tags: ["Data Science", "GIS", "Super Blooms", "Classification"]
@@ -245,7 +245,7 @@ samples:
   description: This sample shows how ArcGIS API for Python can be used to train a deep learning model to extract building footprints from drone data.
   licenseInfo: ""
   runtime: advanced_gpu
-  tags: ["Data Science", "GIS", "Building", "Foorprint", "Deep Learning"]
+  tags: ["Data Science", "GIS", "Building", "Footprint", "Deep Learning"]
 - title: Extracting Slums from Satellite Imagery
   url: https://www.arcgis.com/home/item.html?id=5b5461f3df814fc1b65539365668904d
   path: ./samples/04_gis_analysts_data_scientists/extracting_slums_from_satellite_imagery.ipynb
@@ -320,9 +320,9 @@ samples:
 #   description: Use the ArcGIS API for Python to answer if wildfires are increasing over time.
 #   licenseInfo: ""
 #   tags: ["Data Science", "GIS", "Wildfire"]
-- title: How much green is Delhi as on 15 Oct 2017?
+- title: How much green is Delhi as on 21 Oct 20122?
   url: https://www.arcgis.com/home/item.html?id=8094be16f34e46e48880883a1ae6a4f1
-  path: ./samples/04_gis_analysts_data_scientists/how-much-green-is-Delhi-as-on-15-oct-2017.ipynb
+  path: ./samples/04_gis_analysts_data_scientists/how-much-green-is-Delhi-as-on-21-oct-2022.ipynb
   thumbnail: ./static/thumbnails/how-much-green-is-Delhi-as-on-15-oct-2017.jpg
   snippet: Use Landsat 8 imagery to detect green cover of New Delhi, India
   description: This sample shows the capabilities of spectral indices such as Normalized Difference Vegetation index (NDVI) for the calculation of green cover in Delhi, India on 15 October 2017 using Landsat 8 imagery.
@@ -376,7 +376,7 @@ samples:
   url: https://www.arcgis.com/home/item.html?id=95236a13179b40c39c9fc01ab96719e3
   path: ./samples/04_gis_analysts_data_scientists/locating_a_new_retirement_community.ipynb
   thumbnail: ./static/thumbnails/locating_a_new_retirement_community.png
-  snippet: Locate new retirement communites
+  snippet: Locate new retirement communities
   description: This sample demonstrates the utility of ArcGIS API for Python to identify some great locations for a new retirement community, which will satisfy these needs of senior citizens.
   licenseInfo: ""
   tags: ["Data Science", "GIS", "Retirement", "Community", "Featured"]
@@ -393,7 +393,7 @@ samples:
 #   path: ./samples/04_gis_analysts_data_scientists/part2_explore_hurricane_tracks.ipynb
 #   thumbnail: ./static/thumbnails/part2_explore_hurricane_tracks.png
 #   snippet: Analyze aggregate tracks of hurricanes
-#   description: In this notebook you will analyze the aggregated tracks to investigate the communities that are most affected by hurricanes, as well as as answer important questions about the prevalance of hurricanes, their seasonality, their density, and places where they make landfall.
+#   description: In this notebook you will analyze the aggregated tracks to investigate the communities that are most affected by hurricanes, as well as as answer important questions about the prevalence of hurricanes, their seasonality, their density, and places where they make landfall.
 #   licenseInfo: ""
 #   tags: ["Data Science", "GIS", "Hurricane", "Tracks", "GeoAnalytics", "Part 2"]
 # - title: Correlation - Hurricane analysis, part 3/3
@@ -569,7 +569,7 @@ samples:
   tags: ['Data Science', 'GIS', "Geometry"]
 - title: Using Geoprocessing Tools
   url: https://www.arcgis.com/home/item.html?id=5a5839d87b4645e685bcd46d79995358
-  path: ./samples/02_power_users_developers/using_geoprocessing_tools.ipynb
+  path: ./samples/02_power_users_developers/using_geoprocessing_tools_rn.ipynb
   thumbnail: ./static/thumbnails/using_geoprocessing_tools.png
   snippet: using geoprocessing tools
   description:  The analysis below uses a geoprocessing tool to deduce the path that the debris of a crashed airplane would take if it went down at different places in the ocean.
@@ -771,9 +771,9 @@ samples:
   licenseInfo: ""
   runtime: advanced_gpu
   tags: ["Data Science", "GIS", "Hyperspectral", "Deep Learning"]
-- title: Streams Extraction using MultiTaskRoadExtractor
+- title: Streams Extraction using Deep Learning
   url: https://www.arcgis.com/home/item.html?id=356899f6baad407b9db49bb526073ee1
-  path: ./samples/04_gis_analysts_data_scientists/streams_extraction_using_multi_task_road_extractor.ipynb
+  path: ./samples/04_gis_analysts_data_scientists/streams_extraction_using_deeplearning.ipynb
   thumbnail: ./static/thumbnails/default.png
   snippet: The aim of this notebook is to make use of arcgis.learn MultiTaskRoadExtractor model to extract streams.
   description: The aim of this notebook is to make use of arcgis.learn MultiTaskRoadExtractor model to extract streams.

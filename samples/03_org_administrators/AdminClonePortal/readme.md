@@ -1,5 +1,5 @@
 # Stand-alone Python script to clone portal users groups and content
-This folder contains the stand-alone Python script `clone_portal.py` for the accompanying sample titled [Clone Portal users, groups and content](https://developers.arcgis.com/python/sample-notebooks/clone-portal-users-groups-and-content/)
+This folder contains the stand-alone Python script `clone_portal.py` for the accompanying sample titled [Clone Portal users, groups and content](https://developers.arcgis.com/python/latest/samples/clone-portal-users-groups-and-content-rn/)
 
 Running the script produces and output similar to below
 
